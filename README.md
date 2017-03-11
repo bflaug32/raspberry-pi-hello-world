@@ -60,3 +60,8 @@ open calendar.html in a web browser.
 * figure out your IP address with the command `ifconfig`
 * start a basic server that shows `hello world`
 * make an endpoint to turn on and off the LED, copy and paste the code from blink.py
+
+# Making an arcade (for at home)
+
+* install Retropie https://retropie.org.uk/
+* read the wiki https://github.com/retropie/RetroPie-Setup/wiki
