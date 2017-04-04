@@ -44,7 +44,7 @@ you can pickup a raspberry pi zero for $5 but note you'll need at least $10 wort
 
 # using the raspberry pi as a calendar display
 
-open calendar.html in a web browser.
+open (calendar.html)[../calendar.html] in a web browser.
 
 # blinking the LEDs
 
