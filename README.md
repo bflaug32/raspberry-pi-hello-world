@@ -42,6 +42,10 @@ you can pickup a raspberry pi zero for $5 but note you'll need at least $10 wort
 * for more... check here > http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything
 * or here > https://github.com/predbrad/brads-guides/tree/master/bash/docs
 
+# access raspberry pi from another computer
+
+* check here > https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md
+
 # using the raspberry pi as a calendar display
 
 open [calendar.html](calendar.html) in a web browser.
