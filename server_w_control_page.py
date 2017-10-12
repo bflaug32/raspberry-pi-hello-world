@@ -10,25 +10,12 @@ GPIO.setup(25, GPIO.OUT)
 
 @app.route("/")
 def control():
-	#control() returns a control
-        # WARNING BE SURE YOU LINK TO YOUR OWN IP ADDRESS
-        # e.g. replace the 172.16.37.207 with your own ip (from ifconfig) below
+	#control() returns a control page with buttons
 	return """
-        <html>
-        <head>
-        </head>
-        <body>
+        <!DOCTYPE html>
+        <a href="/on"><img src="https://cdn.pixabay.com/photo/2016/06/01/07/41/green-1428507_960_720.png" height=300 width=300 /img></a>
 
-        <!--HOW TO SETUP A PICTURE/IMAGE LINK -->
-        <a href="http://172.16.37.207:5000/on">
-         <img src="https://s-media-cache-ak0.pinimg.com/736x/cb/06/cf/cb06cfc39ac3d3c2774433694f47660e.jpg" /img>
-        </a>
-
-        <!--HOW TO SETUP A TEXT LINK.. -->
-        <a href="http://172.16.37.207:5000/off"> OFF </a>
-        
-        </body>
-        </html>
+        <a href="/off"><img src="https://cdn.pixabay.com/photo/2013/07/13/10/20/cigarette-lighter-156994_960_720.png" height=300 width=300 /img></a>
         """
 
 @app.route("/on")
